@@ -24,6 +24,7 @@ console.log("nikhil" === "nikhil"); //true
 */
 
 // Null VS Undefined
+// Always assign null if you want to send an unknown value or an empty value
 var x;
 console.log(x); //undefined
 
