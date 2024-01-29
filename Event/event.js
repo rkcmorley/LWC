@@ -46,7 +46,7 @@ function callNameMethod() {
     document.dispatchEvent(customEvent);
 }
 
-// We can add event listener with our custom event, sayHello
+// We can add event listener with our custom event, sayName
 document.addEventListener("sayName", function (data) {
     console.log('This has the name of the person: ', data.detail);
 });
